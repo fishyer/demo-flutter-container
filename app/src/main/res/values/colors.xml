@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_background">#F4F7F8</color>
+    <color name="brand_blue">#FF3E82F7</color>
+    <color name="color_primary_dark">#1565C0</color>
+    <color name="brand_blue_light">#87a8df</color>
+</resources>

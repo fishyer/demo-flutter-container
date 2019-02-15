@@ -2,7 +2,6 @@ package com.ezbuy.flutter.container;
 
 import android.app.Application;
 
-import io.flutter.plugins.GeneratedPluginRegistrant;
 import io.flutter.view.FlutterMain;
 
 /**
@@ -17,6 +16,5 @@ public class App extends Application {
     public void onCreate() {
         super.onCreate();
         FlutterMain.startInitialization(this);
-//        GeneratedPluginRegistrant.registerWith(this);
     }
 }

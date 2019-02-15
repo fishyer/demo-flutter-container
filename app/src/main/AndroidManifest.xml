@@ -17,13 +17,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".HomeActivity"/>
-        <activity android:name=".FlutterContainerActivity">
+        <activity android:name=".flutter.MainFlutterActivity">
             <meta-data
                 android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
                 android:value="true" />
         </activity>
+        <activity android:name=".flutter.HomeFlutterActivity"/>
+        <activity android:name=".flutter.ChannelFlutterActivity"/>
     </application>
 
 </manifest>
